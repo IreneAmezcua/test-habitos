@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test gratuito de hábitos | Irene Amezcua</title>
+  <meta name="description" content="Descubre en 5 minutos el estado de tus hábitos y recibe recursos para empezar a mejorarlos con un enfoque integral." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#0f172a; --muted:#334155; --line:#e5e7eb; --accent:#0ea5e9; --bg:#ffffff; --max:760px;
+    }
+    *{box-sizing:border-box} html,body{margin:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+    .wrap{padding:24px} .container{max-width:var(--max);margin:0 auto}
+    header{padding:12px 0 8px}
+    .pill{display:inline-block;font-weight:700;font-size:12px;letter-spacing:.3px;padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:#f8fafc;color:#0f172a}
+    h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:10px 0 8px;color:#A47C65;}
+    .lead{color:var(--muted);margin:0 0 10px;font-size:clamp(16px,2.4vw,18px)}
+    section{padding:18px 0;border-top:1px solid var(--line)} section:first-of-type{border-top:0}
+    h2{font-size:22px;margin:0 0 8px;color:#A47C65;} ul,ol{margin:0 0 0 18px;padding:0} .muted{color:var(--muted)}
+    .caption{margin:6px 2px 0;color:#64748b;font-size:13px}
+    img.photo{width:100%;height:auto;display:block;border-radius:14px;border:1px solid var(--line);}
+    .frame-4x3{width:100%;aspect-ratio:4/3;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#f8fafc;margin-top:12px;}
+    .frame-4x3 > img{width:100%;height:100%;object-fit:cover;display:block;}
+    .form-wrap{display:flex;justify-content:center} .form-inner{width:100%;max-width:600px}
+    .beehiiv-embed{width:100%;height:200px;margin:0;border:0;background:transparent;display:block}
+    footer{border-top:1px solid var(--line);margin-top:18px;padding:14px 0;color:#64748b;font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    footer a{color:#0ea5e9;text-decoration:underline}
+    .cookie{position:fixed;left:16px;right:16px;bottom:16px;background:#0f172a;color:#fff;border-radius:12px;padding:12px 14px;display:none;gap:10px;align-items:center;box-shadow:0 10px 30px rgba(0,0,0,.12);z-index:30}
+    .cookie p{margin:0 0 8px;font-size:14px;color:#e5e7eb}
+    .cookie .actions{display:flex;gap:8px}
+    .cookie button{border:1px solid #1f2937;border-radius:10px;padding:10px 12px;font-weight:700;cursor:pointer}
+    .cookie .accept{background:#22c55e;border-color:#16a34a;color:#052e16} .cookie .reject{background:#111827;border-color:#374151;color:#e5e7eb}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="container">
+      <header>
+        <span class="pill">TEST GRATUITO · HÁBITOS</span>
+        <h1>Evalúa tus hábitos y da el primer paso hacia una salud más consciente</h1>
+        <p class="lead">Un test sencillo que te ayuda a detectar desequilibrios y entender qué áreas (descanso, alimentación, movimiento, ritmos, gestión emocional) pueden mejorar. Recibe el test en tu email y empieza hoy.</p>
+      </header>
+
+      <section aria-label="Foto principal">
+        <img src="img/cover.jpg" alt="foto principal del test" class="photo">
+      </section>
+
+      <section id="beneficios">
+        <h2>¿Qué te llevas con este test?</h2>
+        <ul class="muted">
+          <li><strong>Una foto honesta de tus hábitos</strong> para saber desde dónde partes y qué priorizar.</li>
+          <li><strong>Detección de áreas clave a mejorar</strong> (sueño, alimentación, ritmo de vida, movimiento, gestión emocional).</li>
+          <li><strong>Resultado cuantitativo</strong> que te orienta y te motiva a pasar a la acción.</li>
+          <li><strong>Enfoque integral y funcional</strong> basado en PNIE y hábitos circadianos.</li>
+        </ul>
+        <p class="muted" style="margin-top:8px;font-size:13px">No es un diagnóstico médico; es una herramienta educativa para tomar decisiones más conscientes.</p>
+      </section>
+
+      <section id="como-funciona">
+        <h2>¿Cómo funciona?</h2>
+        <ol class="muted">
+          <li>Deja tu email y te enviamos el test gratuito.</li>
+          <li>Complétalo en menos de 5 minutos.</li>
+          <li>Consulta tu puntuación y orienta tus siguientes pasos.</li>
+        </ol>
+        <div class="frame-4x3">
+          <img src="img/lifestyle.jpg" alt="foto estilo de vida">
+        </div>
+      </section>
+
+      <section id="form">
+        <h2>Recibe el test en tu email</h2>
+        <p class="muted" style="margin-top:-4px">Rellena el formulario y te lo enviamos al instante.</p>
+        <div class="form-wrap">
+          <div class="form-inner">
+            <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+            <iframe src="https://subscribe-forms.beehiiv.com/0bc4535e-bb0e-4339-b10b-2d24f89e8113" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="max-width:100%;"></iframe>
+          </div>
+        </div>
+        <p class="muted" style="font-size:13px;margin-top:8px">Al enviar aceptas nuestra <a href="/legal/privacidad.html" style="color:#0ea5e9">Política de Privacidad</a>.</p>
+      </section>
+
+      <footer>
+        <span>© <span id="y"></span> Irene Amezcua</span>
+        <span>
+          <a href="/legal/privacidad.html">Privacidad</a> ·
+          <a href="/legal/aviso-legal.html">Aviso legal</a> ·
+          <a href="/legal/cookies.html">Cookies</a>
+        </span>
+      </footer>
+    </main>
+  </div>
+
+  <div id="cookie" class="cookie" role="dialog" aria-live="polite">
+    <div style="flex:1">
+      <strong>Tu privacidad</strong>
+      <p>Usamos cookies para análisis y marketing (Meta Pixel). Puedes aceptarlas o rechazarlas. Más info en <a href="/legal/cookies.html" style="color:#93c5fd">Política de Cookies</a>.</p>
+      <div class="actions">
+        <button class="reject" id="cReject">Rechazar</button>
+        <button class="accept" id="cAccept">Aceptar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    const CK='cookie_consent_v1';const banner=document.getElementById('cookie');
+    const hasChoice=()=>['accepted','rejected'].includes(localStorage.getItem(CK));
+    const accepted =()=>localStorage.getItem(CK)==='accepted';
+    const show=()=>banner.style.display='grid'; const hide=()=>banner.style.display='none';
+    const accept=()=>{localStorage.setItem(CK,'accepted');hide();loadPixel();}
+    const reject=()=>{localStorage.setItem(CK,'rejected');hide();}
+    document.getElementById('cAccept').onclick=accept; document.getElementById('cReject').onclick=reject;
+    if(!hasChoice()) show(); else if(accepted()) loadPixel();
+    function loadPixel(){
+      if(window.fbq) return;
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;
+      s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init','1472158240804532'); fbq('track','PageView');
+    }
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=1472158240804532&ev=PageView&noscript=1"/>
+  </noscript>
+</body>
+</html>
