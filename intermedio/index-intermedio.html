@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirigiendo...</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <p>Redirigiendo a tu test gratuito...</p>
+
+  <script>
+    // Limpia cualquier parámetro de la URL visible
+    window.history.replaceState({}, document.title, window.location.pathname);
+
+    // Redirige tras 500 ms
+    setTimeout(function() {
+      window.location.replace("https://danielbt-pruebas.github.io/irene-gracias");
+    }, 500);
+  </script>
+</body>
+</html>
